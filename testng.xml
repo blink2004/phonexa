@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Default" verbose="1">
+<!--    <test name="OLX Search" parallel="methods" thread-count="3">-->
+    <test name="OLX Search">
+        <classes>
+            <class name="TestSearchPage"></class>
+        </classes>
+        <!--<classes>
+            <class name="TestSearchPage">
+                <methods>
+                    <include name="TestFailed"></include>
+                </methods>
+            </class>
+        </classes>-->
+    </test>
+</suite>
