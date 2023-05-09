@@ -12,7 +12,7 @@
 
     <properties>
         <selenium.ver>3.141.59</selenium.ver>
-        <testng.ver>7.0.0-beta7</testng.ver>
+        <testng.ver>7.5.1</testng.ver>
     </properties>
 
     <dependencies>
